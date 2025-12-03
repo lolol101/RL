@@ -1,0 +1,17 @@
+{"time":"2025-12-03T22:03:58.490471281+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T22:03:58.646632893+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T22:03:58.64670506+03:00","level":"INFO","msg":"stream: created new stream","id":"igphruzp"}
+{"time":"2025-12-03T22:03:58.646762837+03:00","level":"INFO","msg":"handler: started","stream_id":"igphruzp"}
+{"time":"2025-12-03T22:03:58.646794719+03:00","level":"INFO","msg":"stream: started","id":"igphruzp"}
+{"time":"2025-12-03T22:03:58.646837275+03:00","level":"INFO","msg":"writer: started","stream_id":"igphruzp"}
+{"time":"2025-12-03T22:03:58.646860151+03:00","level":"INFO","msg":"sender: started","stream_id":"igphruzp"}
+{"time":"2025-12-03T22:03:58.647006071+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T22:03:58.653280987+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T22:04:08.713884028+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T22:04:08.714278739+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788638\")","namespace":""}
+{"time":"2025-12-03T22:04:08.714574118+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788638/events.out.tfevents.1764788638.DESKTOP-G960LMA.6277.7","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764788638/events.out.tfevents.1764788638.DESKTOP-G960LMA.6277.7"}
+{"time":"2025-12-03T22:04:20.118798306+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-03T22:04:20.123896485+03:00","level":"INFO","msg":"stream: closing","id":"igphruzp"}
+{"time":"2025-12-03T22:04:20.123932501+03:00","level":"INFO","msg":"handler: closed","stream_id":"igphruzp"}
+{"time":"2025-12-03T22:04:20.123968703+03:00","level":"INFO","msg":"sender: closed","stream_id":"igphruzp"}
+{"time":"2025-12-03T22:04:20.123982022+03:00","level":"INFO","msg":"stream: closed","id":"igphruzp"}

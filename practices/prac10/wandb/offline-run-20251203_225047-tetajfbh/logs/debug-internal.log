@@ -1,0 +1,12 @@
+{"time":"2025-12-03T22:50:47.233246839+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T22:50:47.377377309+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T22:50:47.377435516+03:00","level":"INFO","msg":"stream: created new stream","id":"tetajfbh"}
+{"time":"2025-12-03T22:50:47.377480084+03:00","level":"INFO","msg":"handler: started","stream_id":"tetajfbh"}
+{"time":"2025-12-03T22:50:47.37752926+03:00","level":"INFO","msg":"stream: started","id":"tetajfbh"}
+{"time":"2025-12-03T22:50:47.377544332+03:00","level":"INFO","msg":"writer: started","stream_id":"tetajfbh"}
+{"time":"2025-12-03T22:50:47.377560284+03:00","level":"INFO","msg":"sender: started","stream_id":"tetajfbh"}
+{"time":"2025-12-03T22:50:47.377753226+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T22:50:47.383738771+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T22:50:57.437197592+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T22:50:57.437600074+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764791447\")","namespace":""}
+{"time":"2025-12-03T22:50:57.437896374+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764791447/events.out.tfevents.1764791447.DESKTOP-G960LMA.18637.3","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764791447/events.out.tfevents.1764791447.DESKTOP-G960LMA.18637.3"}

@@ -1,0 +1,17 @@
+{"time":"2025-12-03T22:04:20.341413469+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T22:04:20.594641347+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T22:04:20.594716345+03:00","level":"INFO","msg":"stream: created new stream","id":"vww6ty65"}
+{"time":"2025-12-03T22:04:20.594761982+03:00","level":"INFO","msg":"handler: started","stream_id":"vww6ty65"}
+{"time":"2025-12-03T22:04:20.594827249+03:00","level":"INFO","msg":"stream: started","id":"vww6ty65"}
+{"time":"2025-12-03T22:04:20.594845426+03:00","level":"INFO","msg":"writer: started","stream_id":"vww6ty65"}
+{"time":"2025-12-03T22:04:20.594867318+03:00","level":"INFO","msg":"sender: started","stream_id":"vww6ty65"}
+{"time":"2025-12-03T22:04:20.5950292+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T22:04:20.599831712+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T22:04:30.658334832+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T22:04:30.658709293+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788660\")","namespace":""}
+{"time":"2025-12-03T22:04:30.658969893+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788660/events.out.tfevents.1764788660.DESKTOP-G960LMA.6277.8","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764788660/events.out.tfevents.1764788660.DESKTOP-G960LMA.6277.8"}
+{"time":"2025-12-03T22:04:56.437816326+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-03T22:04:56.443376342+03:00","level":"INFO","msg":"stream: closing","id":"vww6ty65"}
+{"time":"2025-12-03T22:04:56.44341008+03:00","level":"INFO","msg":"handler: closed","stream_id":"vww6ty65"}
+{"time":"2025-12-03T22:04:56.443457396+03:00","level":"INFO","msg":"sender: closed","stream_id":"vww6ty65"}
+{"time":"2025-12-03T22:04:56.443462343+03:00","level":"INFO","msg":"stream: closed","id":"vww6ty65"}

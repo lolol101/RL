@@ -1,0 +1,17 @@
+{"time":"2025-12-03T22:52:32.65037422+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T22:52:32.802188479+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T22:52:32.80228389+03:00","level":"INFO","msg":"stream: created new stream","id":"z1p2tmgb"}
+{"time":"2025-12-03T22:52:32.802365543+03:00","level":"INFO","msg":"handler: started","stream_id":"z1p2tmgb"}
+{"time":"2025-12-03T22:52:32.802410957+03:00","level":"INFO","msg":"stream: started","id":"z1p2tmgb"}
+{"time":"2025-12-03T22:52:32.802440756+03:00","level":"INFO","msg":"writer: started","stream_id":"z1p2tmgb"}
+{"time":"2025-12-03T22:52:32.80247558+03:00","level":"INFO","msg":"sender: started","stream_id":"z1p2tmgb"}
+{"time":"2025-12-03T22:52:32.802860214+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T22:52:32.807644733+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T22:52:42.866931862+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T22:52:42.867370028+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764791552\")","namespace":""}
+{"time":"2025-12-03T22:52:42.867651236+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764791552/events.out.tfevents.1764791552.DESKTOP-G960LMA.19453.2","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764791552/events.out.tfevents.1764791552.DESKTOP-G960LMA.19453.2"}
+{"time":"2025-12-03T22:53:22.256471486+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-03T22:53:22.261879697+03:00","level":"INFO","msg":"stream: closing","id":"z1p2tmgb"}
+{"time":"2025-12-03T22:53:22.261913474+03:00","level":"INFO","msg":"handler: closed","stream_id":"z1p2tmgb"}
+{"time":"2025-12-03T22:53:22.261969884+03:00","level":"INFO","msg":"sender: closed","stream_id":"z1p2tmgb"}
+{"time":"2025-12-03T22:53:22.261983347+03:00","level":"INFO","msg":"stream: closed","id":"z1p2tmgb"}
