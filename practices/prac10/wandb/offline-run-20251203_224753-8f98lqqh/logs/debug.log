@@ -1,0 +1,249 @@
+2025-12-03 22:47:53,743 INFO    MainThread:6277 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/nikita/proga/RL/practices/prac10/wandb/offline-run-20251203_224753-8f98lqqh/logs/debug.log
+2025-12-03 22:47:53,743 INFO    MainThread:6277 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/nikita/proga/RL/practices/prac10/wandb/offline-run-20251203_224753-8f98lqqh/logs/debug-internal.log
+2025-12-03 22:47:53,743 INFO    MainThread:6277 [wandb_init.py:init():841] calling init triggers
+2025-12-03 22:47:53,743 INFO    MainThread:6277 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'exp_name': 'offline_rl', 'seed': 1, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'offline-rl-hw', 'wandb_entity': None, 'capture_video': False, 'env_id': 'PointMaze_UMaze-v3', 'total_timesteps': 1000, 'num_envs': 1, 'buffer_size': 1000000, 'eval_freq': 100, 'checkpoints_path': 'model', 'eval_seed': 1024, 'num_eval_episodes': 10, 'gamma': 0.99, 'tau': 0.005, 'batch_size': 1024, 'learning_starts': 5000.0, 'policy_lr': 0.0003, 'q_lr': 0.001, 'policy_frequency': 2, 'target_network_frequency': 1, 'alpha': 0.2, 'autotune': True, 'data_path': './content/data_umaze_dense.hdf5', '_wandb': {'code_path': '/home/nikita/proga/RL/practices/prac10/prac10.ipynb'}}
+2025-12-03 22:47:53,764 INFO    MainThread:6277 [wandb_init.py:init():889] starting backend
+2025-12-03 22:47:53,765 INFO    MainThread:6277 [wandb_init.py:init():892] sending inform_init request
+2025-12-03 22:47:53,766 INFO    MainThread:6277 [wandb_init.py:init():900] backend started and connected
+2025-12-03 22:47:53,767 INFO    MainThread:6277 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-03 22:47:53,770 INFO    MainThread:6277 [wandb_init.py:init():970] updated telemetry
+2025-12-03 22:47:53,774 INFO    MainThread:6277 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-03 22:47:53,925 INFO    MainThread:6277 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-03 22:47:53,985 INFO    MainThread:6277 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-03 22:47:53,985 INFO    MainThread:6277 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-03 22:47:53,985 INFO    MainThread:6277 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-03 22:47:53,985 INFO    MainThread:6277 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-03 22:47:53,986 INFO    MainThread:6277 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-03 22:47:53,987 INFO    MainThread:6277 [wandb_run.py:_tensorboard_callback():1607] tensorboard callback: runs/PointMaze_UMaze-v3__offline_rl__1__1764791273, True
+2025-12-03 22:48:01,831 INFO    MainThread:6277 [wandb_run.py:_finish():2287] finishing run offline-rl-hw/8f98lqqh
+2025-12-03 22:48:01,832 ERROR   MainThread:6277 [wandb_init.py:init():1592] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-03 22:48:04,174 INFO    MainThread:6277 [wandb_run.py:_finish():2287] finishing run offline-rl-hw/8f98lqqh
+2025-12-03 22:48:04,175 ERROR   MainThread:6277 [wandb_init.py:init():1592] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/selector_events.py", line 1075, in write
+    n = self._sock.send(data)
+        ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-12-03 22:48:11,608 INFO    MainThread:6277 [wandb_run.py:_finish():2287] finishing run offline-rl-hw/8f98lqqh
+2025-12-03 22:48:11,609 ERROR   MainThread:6277 [wandb_init.py:init():1592] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3701, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_6277/1036552130.py", line 3, in <module>
+    agent_SAC = train(config, SACAgent, ReplayBuffer, train_offline, make_env)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_6277/2497521813.py", line 93, in train
+    logger = Logger(config)
+             ^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_6277/1661600638.py", line 7, in __init__
+    self.run = wandb.init(
+               ^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1594, in init
+    get_sentry().reraise(e)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/analytics/sentry.py", line 190, in reraise
+    raise exc.with_traceback(tb)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nikita/proga/RL/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nikita/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu/lib/python3.12/asyncio/selector_events.py", line 1075, in write
+    n = self._sock.send(data)
+        ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

@@ -1,0 +1,17 @@
+{"time":"2025-12-03T21:59:42.075562096+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T21:59:42.230013925+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T21:59:42.23010119+03:00","level":"INFO","msg":"stream: created new stream","id":"xfvlmlvs"}
+{"time":"2025-12-03T21:59:42.230148776+03:00","level":"INFO","msg":"handler: started","stream_id":"xfvlmlvs"}
+{"time":"2025-12-03T21:59:42.23022548+03:00","level":"INFO","msg":"stream: started","id":"xfvlmlvs"}
+{"time":"2025-12-03T21:59:42.230291568+03:00","level":"INFO","msg":"sender: started","stream_id":"xfvlmlvs"}
+{"time":"2025-12-03T21:59:42.230296815+03:00","level":"INFO","msg":"writer: started","stream_id":"xfvlmlvs"}
+{"time":"2025-12-03T21:59:42.230524171+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T21:59:42.236292932+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T21:59:52.333882406+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T21:59:52.334394927+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788382\")","namespace":""}
+{"time":"2025-12-03T21:59:52.350510794+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764788382/events.out.tfevents.1764788382.DESKTOP-G960LMA.6277.1","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764788382/events.out.tfevents.1764788382.DESKTOP-G960LMA.6277.1"}
+{"time":"2025-12-03T22:00:05.374282247+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-03T22:00:05.379664479+03:00","level":"INFO","msg":"stream: closing","id":"xfvlmlvs"}
+{"time":"2025-12-03T22:00:05.37969956+03:00","level":"INFO","msg":"handler: closed","stream_id":"xfvlmlvs"}
+{"time":"2025-12-03T22:00:05.379746304+03:00","level":"INFO","msg":"sender: closed","stream_id":"xfvlmlvs"}
+{"time":"2025-12-03T22:00:05.379750933+03:00","level":"INFO","msg":"stream: closed","id":"xfvlmlvs"}

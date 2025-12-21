@@ -1,0 +1,17 @@
+{"time":"2025-12-03T22:19:08.505364587+03:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-03T22:19:08.666617266+03:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-03T22:19:08.666696254+03:00","level":"INFO","msg":"stream: created new stream","id":"hi2a071l"}
+{"time":"2025-12-03T22:19:08.66677592+03:00","level":"INFO","msg":"handler: started","stream_id":"hi2a071l"}
+{"time":"2025-12-03T22:19:08.666907901+03:00","level":"INFO","msg":"stream: started","id":"hi2a071l"}
+{"time":"2025-12-03T22:19:08.666950134+03:00","level":"INFO","msg":"writer: started","stream_id":"hi2a071l"}
+{"time":"2025-12-03T22:19:08.666977154+03:00","level":"INFO","msg":"sender: started","stream_id":"hi2a071l"}
+{"time":"2025-12-03T22:19:08.667356725+03:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-03T22:19:08.676188508+03:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-12-03T22:19:18.742469912+03:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-03T22:19:18.742992015+03:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764789548\")","namespace":""}
+{"time":"2025-12-03T22:19:18.743502655+03:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/nikita/proga/RL/practices/prac10/runs/PointMaze_UMaze-v3__offline_rl__1__1764789548/events.out.tfevents.1764789548.DESKTOP-G960LMA.6277.16","runPath":"runs/PointMaze_UMaze-v3__offline_rl__1__1764789548/events.out.tfevents.1764789548.DESKTOP-G960LMA.6277.16"}
+{"time":"2025-12-03T22:19:32.062497646+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-03T22:19:32.067854538+03:00","level":"INFO","msg":"stream: closing","id":"hi2a071l"}
+{"time":"2025-12-03T22:19:32.067891532+03:00","level":"INFO","msg":"handler: closed","stream_id":"hi2a071l"}
+{"time":"2025-12-03T22:19:32.067928424+03:00","level":"INFO","msg":"sender: closed","stream_id":"hi2a071l"}
+{"time":"2025-12-03T22:19:32.067932091+03:00","level":"INFO","msg":"stream: closed","id":"hi2a071l"}

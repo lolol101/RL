@@ -1,0 +1,132 @@
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/nikita/proga/RL/practices/prac10/wandb/offline-run-20251203_220456-3gi6pdkw/logs/debug.log
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/nikita/proga/RL/practices/prac10/wandb/offline-run-20251203_220456-3gi6pdkw/logs/debug-internal.log
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f8e6bd37020>
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:init():841] calling init triggers
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'exp_name': 'offline_rl', 'seed': 1, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'offline-rl-hw', 'wandb_entity': None, 'capture_video': False, 'env_id': 'PointMaze_UMaze-v3', 'total_timesteps': 6000, 'num_envs': 1, 'buffer_size': 1000000, 'eval_freq': 100, 'checkpoints_path': 'model', 'eval_seed': 1024, 'num_eval_episodes': 10, 'gamma': 0.99, 'tau': 0.005, 'batch_size': 1024, 'learning_starts': 5000, 'policy_lr': 0.0003, 'q_lr': 0.001, 'policy_frequency': 2, 'target_network_frequency': 1, 'alpha': 0.2, 'autotune': True, 'data_path': 'notebook/data_umaze_d.hdf5', '_wandb': {'code_path': '/home/nikita/proga/RL/practices/prac10/prac10.ipynb'}}
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:init():889] starting backend
+2025-12-03 22:04:56,956 INFO    MainThread:6277 [wandb_init.py:init():892] sending inform_init request
+2025-12-03 22:04:56,957 INFO    MainThread:6277 [wandb_init.py:init():900] backend started and connected
+2025-12-03 22:04:56,959 INFO    MainThread:6277 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-03 22:04:56,961 INFO    MainThread:6277 [wandb_init.py:init():970] updated telemetry
+2025-12-03 22:04:56,964 INFO    MainThread:6277 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-03 22:04:57,120 INFO    MainThread:6277 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-03 22:04:57,175 INFO    MainThread:6277 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-03 22:04:57,175 INFO    MainThread:6277 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-03 22:04:57,175 INFO    MainThread:6277 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-03 22:04:57,175 INFO    MainThread:6277 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-03 22:04:57,176 INFO    MainThread:6277 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-03 22:04:57,176 INFO    MainThread:6277 [wandb_run.py:_tensorboard_callback():1607] tensorboard callback: runs/PointMaze_UMaze-v3__offline_rl__1__1764788696, True
+2025-12-03 22:05:00,024 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,100 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,109 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,109 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,109 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,110 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,120 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,128 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,128 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,128 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,129 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,139 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,145 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,145 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,146 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,208 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,217 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,222 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,223 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,223 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,224 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,233 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,238 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,238 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,239 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,240 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,247 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,252 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,252 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,252 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,253 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,262 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,268 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,268 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,268 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,270 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,276 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,283 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,283 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,283 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,293 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,299 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,304 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,305 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,305 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,305 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,315 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,320 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,320 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,320 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,331 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,338 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,344 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,344 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,344 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,453 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,459 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,465 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,465 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,465 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,467 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,474 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,479 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,480 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,480 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,515 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,525 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,529 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,530 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,530 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,532 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,540 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,546 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,546 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,546 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,547 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,558 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,564 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,564 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,564 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,567 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,575 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,579 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,580 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,580 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,582 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,593 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,598 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,598 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,598 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,601 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,607 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,613 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,613 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,613 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,623 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,631 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,636 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,636 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,636 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,638 INFO    MainThread:6277 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-03 22:07:42,644 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,648 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,649 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,649 INFO    MainThread:6277 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-03 22:07:42,665 INFO    MainThread:6277 [wandb_run.py:_finish():2287] finishing run offline-rl-hw/3gi6pdkw
+2025-12-03 22:07:42,666 INFO    MainThread:6277 [jupyter.py:_save_ipynb():371] looking for notebook: /home/nikita/proga/RL/practices/prac10/prac10.ipynb
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb'}}
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_init.py:_jupyter_teardown():617] saved code and history: <Artifact source-offline-rl-hw-_home_nikita_proga_RL_practices_prac10_prac10.ipynb>
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_init.py:_jupyter_teardown():618] cleaning up jupyter logic
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_run.py:_restore():2468] restore
+2025-12-03 22:07:42,671 INFO    MainThread:6277 [wandb_run.py:_restore():2474] restore done
